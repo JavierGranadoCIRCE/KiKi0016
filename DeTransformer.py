@@ -40,7 +40,7 @@ def convert_to_time(hmm):
 
 
 # load data
-batch1 = pickle.load(open(r'c:/Data/batch1.pkl', 'rb'))
+batch1 = pickle.load(open(r'C:/Data/batch1.pkl', 'rb'))
 #remove batteries that do not reach 80% capacity
 del batch1['b1c8']
 del batch1['b1c10']
@@ -50,7 +50,7 @@ del batch1['b1c22']
 
 numBat1 = len(batch1.keys())
 
-batch2 = pickle.load(open(r'c:/Data/batch2.pkl','rb'))
+batch2 = pickle.load(open(r'C:/Data/batch2.pkl','rb'))
 
 # There are four cells from batch1 that carried into batch2, we'll remove the data from batch2
 # and put it with the correct cell from batch1
