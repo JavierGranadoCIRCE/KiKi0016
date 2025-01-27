@@ -58,5 +58,5 @@ ax.set(xlabel='Capacity (Ah)', ylabel='Valtage (V)', title='Valtage Degradation'
 plt.plot(bat_dict['b2c43']['cycles']['10']['Qd'], bat_dict['b2c43']['cycles']['10']['V'])
 plt.show()
 
-with open('batch2.pkl','wb') as fp:
+with open('Data/batch2.pkl', 'wb') as fp:
         pickle.dump(bat_dict,fp)

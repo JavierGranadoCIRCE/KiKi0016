@@ -60,5 +60,5 @@ plt.plot(bat_dict['b3c43']['cycles']['10']['Qd'], bat_dict['b3c43']['cycles']['1
 plt.show()
 
 
-with open('batch3.pkl','wb') as fp:
+with open('Data/batch3.pkl', 'wb') as fp:
         pickle.dump(bat_dict,fp)
